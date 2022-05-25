@@ -1,0 +1,193 @@
+* {
+    font-family: "Noto Sans KR", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .iconoMenu {
+    font-size: 40px;
+    color: #2a7c6f;
+  }
+  
+  .dMenu {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: #6b705c;
+  }
+  
+  .dMenu.active, .dMenu:hover {
+    background: #2a7c6f;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    border-radius: 5px;
+  }
+  
+  .index {
+    background-image: url(https://bit.ly/3Jrp3Gi);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 85vh;
+    width: 95%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .texto-encima {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    font-size: large;
+    max-width: 500px;
+    text-align: justify;
+    padding-top: 60px;
+    line-height: 1.8;
+    color: rgb(242, 237, 207);
+    margin-bottom: 2rem;
+  }
+  
+  .transicion {
+    position: absolute;
+    top: 370px;
+    left: 100px;
+    color: rgb(242, 237, 207);
+    padding: 0.25rem 1rem;
+    border-radius: 5px;
+    -webkit-transition-property: color;
+    transition-property: color;
+  }
+  
+  .transicion:hover {
+    clip-path: ellipse(50% 37% at 50% 50%);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: rgb(242, 237, 207);
+    background-color: #2a7c6f;
+  }
+  
+  .tarjetaBien {
+    width: 800px;
+    margin: 5px;
+    padding: 15px;
+    color: rgb(242, 237, 207);
+    background-color: #6b705c;
+    border-radius: 5px;
+  }
+  
+  .consultas {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 15px;
+    color: #2a7c6f;
+    border-radius: 10px;
+  }
+  
+  .formularioIndex {
+    padding: 5px;
+  }
+  
+  .textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  
+  #boton {
+    background: #6b705c;
+    color: rgb(242, 237, 207);
+    padding: 10px;
+    border-radius: 5px;
+    transition-property: background-color color;
+  }
+  
+  #boton:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(242, 237, 207);
+    color: #6b705c;
+  }
+  
+  .mapa {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    color: #2a7c6f;
+  }
+  
+  .miFooter {
+    padding: 10px;
+    font-size: medium;
+    background-color: #2a7c6f;
+    color: rgb(242, 237, 207);
+    justify-content: center;
+  }
+  
+  .miFooter legend {
+    font-size: medium;
+  }
+  
+  .miFooter a {
+    color: rgb(242, 237, 207);
+    font-size: larger;
+    margin: 2px;
+  }
+  
+  .footer {
+    font-size: small;
+    color: rgb(242, 237, 207);
+    background-color: #2a7c6f;
+    margin: 10px;
+    text-align: center;
+    background-size: cover;
+  }
+  
+  .cardServ {
+    margin: 40px;
+    background-color: #2a7c6f;
+    color: rgb(242, 237, 207);
+    border-radius: 5px;
+    transition: 0.3s;
+    transform: all ease;
+  }
+  
+  .cardServ:hover {
+    transform: scale(0.9);
+  }
+  
+  .miH2 {
+    color: #2a7c6f;
+  }
+  .imgGaleria {
+    width: 100%;
+    height: 700px;
+    border-radius: 15px;
+    transition: 0.3s;
+    transform: all ease;
+  }
+  
+  .imgGaleria:hover {
+    transform: scale(0.9);
+  }
+  
+  .reserv {
+    text-align: justify;
+    font-family: "Noto Sans KR", sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    color: #6b705c;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }

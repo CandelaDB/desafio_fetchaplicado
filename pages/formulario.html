@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/689ab320f1.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Dominguez Barco</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light"><div class="container-fluid"><a class="navbar-brand iconoMenu" href="../index.html">AURA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dMenu">
+                        <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item dMenu">
+                        <a class="nav-link" aria-current="page" href="./formulario.html">CONTACTANOS</a>
+                    </li>
+                <li class="nav-item dMenu">
+                    <a class="nav-link" aria-current="page" href="#">SERVICIOS</a>
+                </li>
+                <li class="nav-item dMenu">
+                    <a class="nav-link" aria-current="page" href="#">RESERVAS</a>
+                </li>
+                <li class="nav-item dMenu">
+                    <a class="nav-link" aria-current="page" href="#">GALERIA</a>
+                </li>
+                </ul>
+            </div>
+    </nav>
+    </header>
+    <section class="container-fluid">
+        <div class="row justify-content-around">
+    <div class="col-8"> 
+        <form class="consultas"> 
+        <legend>¡HACENOS TU CONSULTA!</legend>
+        <div class="input-group mt-5">
+            <label for="#" class="form-label formularioIndex">Nombre:</label>
+            <input type="text" id="nombre" class="form-control"/>
+            </div>
+            <div class="input-group mt-5">
+                <label for="#" class="form-label formularioIndex">Email:</label>
+                <input type="email" id="email" class="form-control" placeholder="ejemplo@hotmail.com"/>
+            </div>
+            <div class="input-group mt-5">
+                <label for="#" class="form-label formularioIndex">Tel:</label>
+                <input type="text" id="tel" class="form-control" placeholder="151515151515"/>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label formularioIndex"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su consulta aqui"></textarea>
+            </div> 
+            <div class= "d-grid gap-2 col-6 mx-auto"> 
+            <button type="button" id="boton">ENVIAR</button>
+                    </div>
+        </form>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="conteiner miFooter">
+        <div class="row justify-content-evenly">
+            <div class="col-sm-4"><legend>NOS ENCONTRAMOS EN:</legend><a href="https://goo.gl/maps/VJCQWpg7WwXiyNa19">Caleta Falsa 123, Las Grutas, Río Negro.</a>
+            </div>
+                <div class="col-sm-4"><legend>NUESTRAS REDES SOCIALES:</legend>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Derechos reservados ©2022<b>/CANDELA DOMINGUEZ BARCO-AURA</b></p>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="../js/main.js"></script>
+</body>
+</html>
