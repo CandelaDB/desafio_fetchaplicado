@@ -41,34 +41,31 @@
             </div>
     </nav>
     </header>
-    <section class="container-fluid">
-        <div class="row justify-content-around">
-    <div class="col-8"> 
-        <form class="consultas"> 
-        <legend>¡HACENOS TU CONSULTA!</legend>
-        <div class="input-group mt-5">
-            <label for="#" class="form-label formularioIndex">Nombre:</label>
-            <input type="text" id="nombre" class="form-control"/>
+<body>
+            <div class="col-md-6 d-flex align-items justify-content-right">
+                <a href="./carrito.html" id="boton_carrito" title="Ver Carrito"><button type="button" class="btn position-relative"><img src="../imagenes/bag-heart-fill.svg" alt="Carrito" width="32"><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span></button></a>
+                <a href="#" id="eliminar_carrito" title="Vaciar Carrito"><button type="button" class="btn"><img src="../imagenes/trash-fill.svg" alt="Eliminar Carrito" width="32"></button></a>
             </div>
-            <div class="input-group mt-5">
-                <label for="#" class="form-label formularioIndex">Email:</label>
-                <input type="email" id="email" class="form-control" placeholder="ejemplo@hotmail.com"/>
-            </div>
-            <div class="input-group mt-5">
-                <label for="#" class="form-label formularioIndex">Tel:</label>
-                <input type="text" id="tel" class="form-control" placeholder="151515151515"/>
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label formularioIndex"></label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su consulta aqui"></textarea>
-            </div> 
-            <div class= "d-grid gap-2 col-6 mx-auto"> 
-            <button type="button" id="boton">ENVIAR</button>
-                    </div>
-        </form>
         </div>
+    </header>
+    <main class="container pt-5">
+        <h1>Productos</h1>
+        <div id="productos" class="row">
+
         </div>
-    </section>
+        <div class="row pt-5">
+            <div class="col-md-6 shadow p-3 mb-5 bg-body rounded text-center">
+            <img src="../imagenes/truck.svg" alt="Envio gratis" class="img-fluid" width="100">
+            <h2 class="display-6">ENVÍOS GRATIS EN COMPRAS MAYORES A $12.000</h2>
+            <p>Valido para GBA y CABA.</p>
+            </div>
+            <div class="col-md-6 shadow p-3 mb-5 bg-body rounded text-center">
+            <img src="../imagenes/gift-fill.svg" alt="regalo" class="img-fluid" width="90">
+            <h6 class="display-6">OBSEQUIOS EN TODAS TUS COMPRAS</h6>
+            <p>Compras mayores de $3000</p>
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="conteiner miFooter">
         <div class="row justify-content-evenly">
@@ -89,6 +86,7 @@
         </footer>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="../js/main.js"></script>
-</body>
+        <script src="../js/carrito.js"></script>
+        <script src="../js/productos.js"></script>
+        <script src="../js/store.js"></script>
 </html>
