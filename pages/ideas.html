@@ -40,32 +40,34 @@
                 </ul>
             </div>
     </nav>
-    </header>
-            <div class="col-md-6 d-flex align-items justify-content-right">
-                <a href="./carrito.html" id="boton_carrito" title="Ver Carrito"><button type="button" class="btn position-relative"><img src="../imagenes/bag-heart-fill.svg" alt="Carrito" width="32"><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span></button></a>
-                <a href="#" id="eliminar_carrito" title="Vaciar Carrito"><button type="button" class="btn"><img src="../imagenes/trash-fill.svg" alt="Eliminar Carrito" width="32"></button></a>
+</header>
+    <section class="container pt-1">
+        <div class="row">
+            <div class="col-md-4 shadow p-2 m-5 shadow bg-body rounded text-center">
+            <img src="../imagenes/search-heart-fill.svg" alt="Lupa" class="img-fluid" width="100">
+            <h2 class="display-6">BUSCA TU CORTE DE PELO IDEAL</h2>
+            <p>Pone el estilo de corte que quieras y apreta en el boton buscar.</p>
+            </div>
+            <div class="col-md-4 shadow p-2 m-5 bg-body rounded text-center" margin="2px">
+            <img src="../imagenes/calendar2-heart-fill.svg" alt="Calendario" class="img-fluid" width="90">
+            <h6 class="display-6">YA TENES UN ESTILO EN MENTE RESERVA TU TURNO</h6>
+            <p>Podes ir a reservar tu turno.</p>
             </div>
         </div>
-    </header>
-    <main class="container pt-5">
-        <h1>Productos</h1>
-        <div id="productos" class="row">
-
-        </div>
-        <div class="row pt-5">
-            <div class="col-md-6 shadow p-3 mb-5 bg-body rounded text-center">
-            <img src="../imagenes/truck.svg" alt="Envio gratis" class="img-fluid" width="100">
-            <h2 class="display-6">ENVÍOS GRATIS EN COMPRAS MAYORES A $12.000</h2>
-            <p>Valido para GBA y CABA.</p>
+        <div class="container-fluid p-5">
+            <div class="row">
+                <div class="col-md-10 d-flex align-items-center">
+                    <div class="input-group mb-3">
+                        <input type="text" id="texto_busqueda" class="form-control text-secondary rounded-pill" placeholder="Ingrese corte de pelo deseado">
+                        <button class="btn" type="button" id="buscar">Buscar</button>
+                    </div>  
+                </div>
+            </div> 
+            <div id="resultado" class="row py-5">
             </div>
-            <div class="col-md-6 shadow p-3 mb-5 bg-body rounded text-center">
-            <img src="../imagenes/gift-fill.svg" alt="regalo" class="img-fluid" width="90">
-            <h6 class="display-6">OBSEQUIOS EN TODAS TUS COMPRAS</h6>
-            <p>Compras mayores de $3000</p>
-            </div>
-        </div>
-    </main>
-</body>
+    </div>
+</section>        
+    </body>        
     <footer>
         <div class="conteiner miFooter">
         <div class="row justify-content-evenly">
@@ -86,7 +88,6 @@
         </footer>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="../js/carrito.js"></script>
-        <script src="../js/productos.js"></script>
-        <script src="../js/store.js"></script>
+        <script src="../js/ideas.js"></script>
+</body>
 </html>
